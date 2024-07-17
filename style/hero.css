@@ -13,6 +13,7 @@ body{
     width: 90%;
     margin: 5rem auto;
     border-radius: 1rem;
+    border: 2px solid green;
 }
 
 h3{
@@ -58,4 +59,81 @@ h3{
 .nav-options ul li{
     list-style: none;
     margin-right: 50px;
+}
+
+/* Banner section styles */
+.banner-container {
+    width: 90%;
+    height: 500px;
+    margin: 5rem auto;
+    /* border-radius: 1rem; */
+    border: 2px solid green;
+    background-image: linear-gradient(180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%),
+     url('../images/Group\ 13\ \(1\)\ \(1\).png');
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.explore-container h3{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.explore-container p{
+    color: rgb(209, 212, 214);
+    font-size: 16px;
+    line-height: 26px;
+    width: 676px;
+    padding: 1.5rem 0;
+    margin: auto;
+    text-align: center;
+}
+
+.traval-inputs{
+    margin-top: 2rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+input,
+select{
+    width: 175px;
+    height: 50px;
+    padding: 0 0.9rem;
+    margin: 0 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #474747;
+    padding: ;
+}
+
+.btn-primary{
+    width: 175px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0.7rem 1.2rem;
+    background-color: rgb(255, 84, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
 }
